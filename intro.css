@@ -1,0 +1,611 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+
+/*整体灰色背景*/
+.v5_171 {
+    width: 1728px;
+    height: 1117px;
+    background: rgba(238,238,238,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+/*上方导航栏*/
+.v5_172 {
+    position: absolute;
+    width: 1570px;
+    height: 94px;
+    left: 79px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 50px 50px;
+}
+/*PIECES 字样*/
+.v5_173 {
+    width: 110px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 179px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+}
+/*导航栏 SEASON 1 字样*/
+.v5_212 {
+    position: absolute;
+    width: 172px;
+    height: 0px;
+    left: 322px;
+    top: 41px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0px;
+    -webkit-text-stroke: 2px #101010;
+    user-select:none
+}
+/*导航栏 Home 字样*/
+.v5_178 {
+    width: 67px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 830px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_178:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Vote 字样*/
+.v5_179 {
+    width: 49px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1020px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_179:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Museum 字样*/
+.v5_180 {
+    width: 95px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1353px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_180:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Market 字样*/
+.v5_182 {
+    width: 75px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1185px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_182:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+
+/*导航栏Home按钮*/
+.v5_175 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 778px;
+    top: -1px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_175:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Vote按钮*/
+.v5_176 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 956px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_176:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Market按钮*/
+.v5_181 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 1134px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_181:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Museum按钮*/
+.v5_177 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 1312px;
+    top: -1px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_177:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏最右侧 账户按钮*/
+.v5_183 {
+    width: 50px;
+    height: 50px;
+    background: url("images/v5_105.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 1568px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 21px rgba(0, 0, 0, 0.25);
+}
+.v5_183:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏图标*/
+.v5_184 {
+    width: 50px;
+    height: 50px;
+    background: url("images/v5_184.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: 119px;
+    overflow: hidden;
+}
+
+
+/*back 字样*/
+.v5_174 {
+    position: absolute;
+    width: 58px;
+    height: 34px;
+    left: 154px;
+    top: 150px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #A3A3A3;
+}
+.v5_174:hover{
+    font-weight: 500;
+}
+
+/*主图*/
+.v5_185 {
+    width: 1032px;
+    height: 571px;
+    background: url("images/v5_185.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 79px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+}
+.v5_185:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*右侧卡片*/
+.v5_188 {
+    width: 516px;
+    height: 853px;
+    background: rgba(248,248,248,1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 1134px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+}
+.v5_188:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+/*下方introduction卡片*/
+.v5_189 {
+    width: 571px;
+    height: 243px;
+    background: rgba(248,248,248,1);
+    opacity: 1;
+    position: absolute;
+    top: 823px;
+    left: 79px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+}
+.v5_189:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*下方投票卡片*/
+.v5_190 {
+    width: 211px;
+    height: 243px;
+    background: rgba(248,248,248,1);
+    opacity: 1;
+    position: absolute;
+    top: 823px;
+    left: 900px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+}
+.v5_190:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*右侧卡片头像*/
+.v5_191 {
+    width: 158px;
+    height: 158px;
+    background: url("images/v5_191.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 299px;
+    left: 1312px;
+    border-radius: 50%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*右侧卡片Artist 字样*/
+.v5_192 {
+    position: absolute;
+    width: 57px;
+    height: 34px;
+    left: 1178px;
+    top: 249px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+/*右侧卡片Intro字样*/
+.v5_193 {
+    position: absolute;
+    width: 51px;
+    height: 34px;
+    left: 1178px;
+    top: 585px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+/*右侧卡片Web字样*/
+.v5_194 {
+    position: absolute;
+    width: 49px;
+    height: 34px;
+    left: 1178px;
+    top: 848px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+/*下侧卡片Introduction字样*/
+.v5_195 {
+    position: absolute;
+    width: 134px;
+    height: 34px;
+    left: 119px;
+    top: 841px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.v5_196 {
+    width: 124px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 475px;
+    left: 1330px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 55 Regular;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_197 {
+    width: 201px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 525px;
+    left: 1291px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+}
+/*下侧卡片文本框*/
+.v5_198 {
+    position: absolute;
+    width: 489px;
+    height: 129px;
+    left: 120px;
+    top: 900px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+/*右侧卡片文本框*/
+.v5_199 {
+    position: absolute;
+    width: 440px;
+    height: 193px;
+    left: 1173px;
+    top: 630px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+/*文本*/
+.v5_200 {
+    width: 438px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 922px;
+    left: 146px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+/*文本*/
+.v5_201 {
+    width: 385px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 652px;
+    left: 1199px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+/*文本*/
+.v5_202 {
+    width: 385px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 908px;
+    left: 1178px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_203 {
+    width: 89px;
+    height: 89px;
+    background: url("images/v5_203.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 900px;
+    left: 956px;
+    overflow: hidden;
+}
+/*投票按钮灰色矩形*/
+.v5_204 {
+    width: 88px;
+    height: 44px;
+    background: rgba(225,225,225,1);
+    opacity: 1;
+    position: absolute;
+    top: 44px;
+    left: 5px;
+    overflow: hidden;
+}
+/*投票按钮黄色矩形*/
+.v5_205 {
+    width: 55px;
+    height: 42px;
+    background: rgba(255,203,69,1);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    border: 0px solid rgba(0,0,0,1);
+    transform: rotate(-38deg);
+    overflow: hidden;
+}
+/*点赞爱心*/
+.v5_214 {
+    position: absolute;
+    width: 90px;
+    height: 75px;
+    left: 730px;
+    top: 910px;
+    background: url("images/heart_on.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*下方爱心卡片*/
+.v5_213{
+    width: 211px;
+    height: 243px;
+    background: rgba(248,248,248,1);
+    opacity: 1;
+    position: absolute;
+    left: 672px;
+    top: 823px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+}
+.v5_213:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+/*back按钮*/
+.v5_207 {
+    width: 25px;
+    height: 40px;
+    background: url("images/btn_back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 147px;
+    left: 119px;
+}
+
+
+
+/*===========左侧搜索栏相关=================*/
+/*左侧搜索按钮*/
+.v5_118 {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 0px;
+    top: 151px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    -webkit-appearance: none;
+    appearance: none;
+}
+.v5_118:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+/*左侧搜索按钮 三角形图标*/
+.v5_132 {
+    position: absolute;
+    left: 30px;
+    top: 176px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-left: 32px solid #7D7D7D;
+    border-bottom: 16px solid transparent;
+}
+/*左侧搜索按钮动作*/
+.v5_118:checked + aside {
+    left: 0;
+}
+body > aside {
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: -339px;
+    transition: 0.2s ease-out;
+    opacity: 0.98;
+    -webkit-transition: 0.2s ease-out;
+    width: 339px;
+    height: 850px;
+    background: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    background: url("images/Search.png");
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}

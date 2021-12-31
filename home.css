@@ -1,0 +1,657 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+/*整体灰色背景*/
+.v5_134 {
+    width: 1728px;
+    height: 1117px;
+    background: rgba(238, 238, 238, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+/*背景白色条*/
+.v5_150 {
+    width: 1728px;
+    height: 579px;
+    background: rgba(248, 248, 248, 1);
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 0px;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+
+/*=================导航栏相关==================*/
+/*上方导航栏*/
+.v5_172 {
+    position: absolute;
+    width: 1570px;
+    height: 94px;
+    left: 79px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 50px 50px;
+}
+/*PIECES 字样*/
+.v5_173 {
+    width: 110px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 179px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+
+}
+/*导航栏 SEASON 1 字样*/
+.v5_212 {
+    position: absolute;
+    width: 172px;
+    height: 0px;
+    left: 322px;
+    top: 41px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0px;
+    -webkit-text-stroke: 2px #101010;
+    user-select:none
+}
+/*导航栏 Home 字样*/
+.v5_178 {
+    width: 67px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 830px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_178:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Vote 字样*/
+.v5_179 {
+    width: 49px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1020px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_179:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Museum 字样*/
+.v5_180 {
+    width: 95px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1353px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_180:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+/*导航栏 Market 字样*/
+.v5_182 {
+    width: 75px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 1185px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-weight: 45 Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.v5_182:hover{
+    color:white;
+    text-shadow: 0 0 3px black;
+}
+
+/*导航栏Home按钮*/
+.v5_175 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 778px;
+    top: -1px;
+    background: #F8F8F8;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_175:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Vote按钮*/
+.v5_176 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 956px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_176:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Market按钮*/
+.v5_181 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 1134px;
+    top: 0px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_181:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏Museum按钮*/
+.v5_177 {
+    position: absolute;
+    width: 178px;
+    height: 94px;
+    left: 1312px;
+    top: -1px;
+    background: #F8F8F8;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+.v5_177:hover{
+    background: rgba(222, 244, 248, 0.48);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏最右侧 账户按钮*/
+.v5_183 {
+    width: 50px;
+    height: 50px;
+    background: url("images/v5_105.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 1568px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 21px rgba(0, 0, 0, 0.25);
+}
+.v5_183:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/*导航栏图标*/
+.v5_184 {
+    width: 50px;
+    height: 50px;
+    background: url("images/v5_184.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: 119px;
+    overflow: hidden;
+}
+
+
+/*=================本页相关================*/
+/*皮卡丘图片*/
+.v5_151 {
+    width: 505px;
+    height: 668px;
+    background: url("images/v5_151.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 232px;
+    left: 119px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 40px #F3B30E);
+}
+
+/*蓝色图片*/
+.v5_152 {
+    width: 290px;
+    height: 382px;
+    background: url("images/v5_152.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 232px;
+    left: 666px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 40px #7E61FF);
+}
+
+/*拼图条纹（蓝色图片）*/
+.v5_153 {
+    width: 290px;
+    height: 382px;
+    background: url("images/v5_153.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 232px;
+    left: 666px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.v5_153:hover{
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/*日式人像画*/
+.v5_155 {
+    width: 317px;
+    height: 382px;
+    background: url("images/girl.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 337px;
+    left: 886px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 40px #7E61FF);
+}
+
+/*拼图条纹*/
+.v5_156 {
+    width: 317px;
+    height: 382px;
+    background: url("images/v5_153.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 337px;
+    left: 886px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.v5_156:hover{
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/*黑白印象画*/
+.v5_157 {
+    width: 317px;
+    height: 382px;
+    background: url("images/v5_157.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 518px;
+    left: 720px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 40px #7E61FF);
+}
+
+
+/*长段介绍文字*/
+.v5_159 {
+    position: absolute;
+    width: 410px;
+    height: 107px;
+    left: 1260px;
+    top: 528px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    user-select:none
+}
+
+/*SEASON 1 字样*/
+.v5_160 {
+    width: 230px;
+    height: 0px;
+    left: 1440px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 670px;
+    opacity: 1;
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 0px;
+    text-shadow: 3px 3px black,-3px -3px black,3px -3px black,-3px 3px black;
+    user-select:none
+}
+
+/*右侧按钮*/
+.v5_161 {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    left: 1369px;
+    top: 905px;
+
+    background: #F8F8F8;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.v5_161:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*10 PULLS 字样*/
+.v5_163 {
+    position: absolute;
+    width: 156px;
+    height: 50px;
+    left: 1441px;
+    top: 980px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0px;
+    -webkit-text-stroke: 3px #101010;
+    user-select:none
+}
+/*100 picos 字样*/
+.v5_164 {
+    position: absolute;
+    width: 108px;
+    height: 34px;
+    left: 1465px;
+    top: 916px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    user-select:none
+}
+
+/*左侧按钮*/
+.v5_165 {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    left: 1050px;
+    top: 905px;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.v5_165:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*PULL 字样*/
+.v5_166 {
+    position: absolute;
+    width: 156px;
+    height: 50px;
+    left: 1156px;
+    top: 980px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    opacity: 1;
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0px;
+    -webkit-text-stroke: 3px #101010;
+    user-select:none
+}
+
+/*10 picos 字样*/
+.v5_167 {
+    position: absolute;
+    width: 94px;
+    height: 34px;
+    left: 1146px;
+    top: 916px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    user-select:none
+}
+
+/*Learn More 字样*/
+.v5_168 {
+    position: absolute;
+    width: 346px;
+    height: 50px;
+    left: 234px;
+    top: 933px;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #7D7D7D;
+    user-select:none
+}
+
+/*拼图条纹*/
+.v5_169 {
+    width: 501px;
+    height: 668px;
+    background: url("images/v5_153.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 232px;
+    left: 119px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.v5_169:hover{
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/*拼图条纹*/
+.v5_170 {
+    width: 317px;
+    height: 382px;
+    background: url("images/v5_153.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 518px;
+    left: 720px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.v5_170:hover{
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*===========左侧搜索栏相关=================*/
+/*左侧搜索按钮*/
+.v5_118 {
+    position: absolute;
+    width: 79px;
+    height: 81px;
+    left: 0px;
+    top: 151px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    -webkit-appearance: none;
+    appearance: none;
+}
+.v5_118:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+/*左侧搜索按钮 三角形图标*/
+.v5_132 {
+    position: absolute;
+    left: 30px;
+    top: 176px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-left: 32px solid #7D7D7D;
+    border-bottom: 16px solid transparent;
+}
+/*左侧搜索按钮动作*/
+.v5_118:checked + aside {
+    left: 0;
+}
+body > aside {
+    position: absolute;
+    top: 180px;
+    bottom: 0;
+    left: -339px;
+    transition: 0.2s ease-out;
+    opacity: 0.98;
+    -webkit-transition: 0.2s ease-out;
+    width: 339px;
+    height: 850px;
+    background: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    background: url("images/Search.png");
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/*===========时间显示相关=================*/
+/*时间字样*/
+#show_time {
+    position: absolute;
+    width: 687px;
+    height: 134px;
+    left: 1155px;
+    top: 740px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 0px;
+    text-shadow: 0 0 10px black;
+    text-shadow: 3px 8px black,-3px -3px black,3px -3px black,-3px 3px black;
+    user-select:none
+}
+/*fix_HMS*/
+.fix_HMS {
+    position: absolute;
+    width: 687px;
+    height: 134px;
+    left: 1260px;
+    top: 760px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-family: Alibaba PuHuiTi 2.0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0px;
+    text-shadow: 0 0 10px black;
+    text-shadow: 3px 8px black,-3px -3px black,3px -3px black,-3px 3px black;
+    user-select:none
+}
